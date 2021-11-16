@@ -1,4 +1,4 @@
-﻿/************************************************************************
+/************************************************************************
    AvalonDock
 
    Copyright (C) 2007-2013 Xceed Software Inc.
@@ -75,6 +75,8 @@ namespace AvalonDock.Controls
 		/// <summary>Provides derived classes an opportunity to handle changes to the <see cref="HideCommand"/> property.</summary>
 		protected virtual void OnHideCommandChanged(DependencyPropertyChangedEventArgs e)
 		{
+			int x = 0;
+
 		}
 
 		/// <summary>Coerces the <see cref="HideCommand"/> value.</summary>
